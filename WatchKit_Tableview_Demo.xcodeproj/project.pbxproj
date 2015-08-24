@@ -636,6 +636,8 @@
 		E7633D391AE8F82B00F2155C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Aditya Modi (78774E6S4Z)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Aditya Modi (78774E6S4Z)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -643,6 +645,7 @@
 				INFOPLIST_FILE = "WatchKit_Tableview_Demo WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "1d401313-4c52-42bf-a646-5aa139d19b86";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -650,9 +653,12 @@
 		E7633D3A1AE8F82B00F2155C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Aditya Modi (78774E6S4Z)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Aditya Modi (78774E6S4Z)";
 				INFOPLIST_FILE = "WatchKit_Tableview_Demo WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "1d401313-4c52-42bf-a646-5aa139d19b86";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
